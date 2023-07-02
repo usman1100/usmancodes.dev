@@ -11,10 +11,10 @@ export default function Header() {
   return (
     <header
       className="
-    bg-black text-white
-    lg:text-4xl
+    flex bg-black
     py-5
-    flex
+    text-white
+    lg:text-4xl
     "
     >
       <div className="mx-auto space-x-10">

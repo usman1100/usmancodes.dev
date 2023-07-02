@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="bg-pink-100 flex-1">
-        <div className="flex flex-row w-fit mx-auto px-5">
+      <main className="flex-1 bg-pink-100">
+        <div className="mx-auto flex w-fit flex-row px-5">
           <div>
             <h1
               className="
-              text-2xl sm:text-4xl lg:text-9xl
-              my-10
+              my-10 text-2xl sm:text-4xl
+              lg:text-9xl
             "
             >
               Usman.<b>Ahmed</b>
