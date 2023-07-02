@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="flex-1 bg-pink-100">
-        <div className="mx-auto flex w-fit flex-row px-5">
+      <main className="mx-auto flex-1 px-5 lg:w-3/4 lg:px-0 xl:w-3/4">
+        <div className="flex flex-row">
           <div>
             <h1
               className="
-              my-10 text-2xl sm:text-4xl
+              my-5 text-2xl sm:text-4xl  lg:my-10
               lg:text-9xl
             "
             >
@@ -21,6 +21,7 @@ export default function Home() {
             <p>Fullstack software engineer with a passion for building</p>
           </div>
           <Image
+            className="ml-auto hidden lg:block"
             src={"/vaporware.png"}
             alt="vaporware"
             height={vaporwareSize}

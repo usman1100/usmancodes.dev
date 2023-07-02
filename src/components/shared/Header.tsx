@@ -13,11 +13,12 @@ export default function Header() {
       className="
     flex bg-black
     py-5
+    text-base
     text-white
     lg:text-4xl
     "
     >
-      <div className="mx-auto space-x-10">
+      <div className="mx-auto space-x-2 lg:space-x-10">
         {links.map((link, index) => (
           <Link href={link.url} key={index}>
             {link.name}
