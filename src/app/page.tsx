@@ -1,3 +1,4 @@
+import { Terminal } from "@/components/Terminal";
 import Header from "@/components/shared/Header";
 import Image from "next/image";
 
@@ -28,6 +29,7 @@ export default function Home() {
             width={vaporwareSize}
           />
         </div>
+        <Terminal />
       </main>
     </>
   );
